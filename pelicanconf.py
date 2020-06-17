@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'hawerner'
-SITENAME = 'Dark Penguin'
+SITENAME = '''Hawerner's site'''
 SITEURL = ''
 INDEX_SAVE_AS = 'blog/index.html'
 
@@ -16,7 +16,7 @@ TIMEZONE = 'Europe/Belgrade'
 
 DEFAULT_LANG = 'en'
 
-THEME='/theme'
+THEME='theme'
 
 MENUITEMS = (
         ("Blog", "/blog"),
