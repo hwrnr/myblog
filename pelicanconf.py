@@ -16,7 +16,7 @@ TIMEZONE = 'Europe/Belgrade'
 
 DEFAULT_LANG = 'en'
 
-THEME='../dark-penguin'
+THEME='/theme'
 
 MENUITEMS = (
         ("Blog", "/blog"),
@@ -41,8 +41,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+        ('Instagram', 'https://instagram.com/nature_232'),
+        ('Another social link', '#'),
+        )
 
 FOOTERITEMS = (
         ("GitHub", "https://github.com/hwrnr"),
